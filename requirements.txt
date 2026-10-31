@@ -1,0 +1,5 @@
+# Runtime
+pyserial>=3.5
+
+# Optional but recommended for fast process detection on Windows
+psutil>=5.9

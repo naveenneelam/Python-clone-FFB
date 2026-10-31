@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "custom-example",
+  "name": "Example road-car setup",
+  "game": "Example Racing Game",
+  "exe_names": [
+    "example-racing.exe"
+  ],
+  "description": "Template profile with a moderate, safe starting tune.",
+  "notes": [
+    "Duplicate this file and change id, name and exe_names.",
+    "Run pyffb profiles import examples/custom_profile.json."
+  ],
+  "settings": {
+    "power_pct": 68,
+    "rotation_deg": 900,
+    "invert": false,
+    "endstop_pct": 30,
+    "idle_spring_pct": 6,
+    "global_damper_pct": 8,
+    "global_friction_pct": 4,
+    "global_inertia_pct": 0,
+    "game_effect_ratio_pct": 100,
+    "max_speed_dps": 1400,
+    "torque_rate": 0,
+    "expo": 0,
+    "spring_gain_pct": 30,
+    "damper_gain_pct": 25,
+    "friction_gain_pct": 100,
+    "inertia_gain_pct": 45,
+    "friction_ramp_pct": 25,
+    "constant_filter_hz": 500,
+    "constant_filter_q": 70,
+    "condition_filters_enabled": false,
+    "condition_friction_hz": 50,
+    "condition_friction_q": 20,
+    "condition_damper_hz": 30,
+    "condition_damper_q": 40,
+    "condition_inertia_hz": 15,
+    "condition_inertia_q": 20
+  },
+  "builtin": false
+}
